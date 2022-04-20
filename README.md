@@ -18,10 +18,12 @@ try {
 
     print_r(
         $generator
-            #->location('az_AZ')
+           #->location('az_AZ')
             ->count(10)
-            ->fromLength(15)
-           #->toLength(10)
+            #->fromLength(3)
+            #->toLength(4)
+            ->search('shop')
+            ->uniqueWords()
             ->generate()
     );
 
