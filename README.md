@@ -6,6 +6,8 @@
 
 - Was written code for example below
 
+> For integration 
+***composer require rzakhanov/random-words-generator***
 
 ```php
 <?php 
